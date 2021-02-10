@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #9C835F;
+}
+.link {
+    display: flex;
+    padding: 8rem;
+    cursor: pointer;
+}
+.link img {
+    padding: 0 4rem;
+}
+.link h1 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8rem;
+    padding: 7rem 2rem;
+    line-height: 49px;
+    text-align: center;
+    color: #F9B23D;
+}
+
+.game {
+    display: flex;
+    justify-content: space-around;
+}
+.player {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.player img {
+    width: 30rem;
+    height: 28rem;
+    margin: 10rem 0;
+}
+.computer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.computer img {
+    width: 30rem;
+    height: 28rem;
+    margin: 10rem 0;
+}
+.refresh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.refresh img {
+    width: 30rem;
+    height: 28rem;
+}
