@@ -5,8 +5,9 @@ body {
 }
 .link {
     display: flex;
-    padding: 8rem;
+    padding: 3rem;
     cursor: pointer;
+    
 }
 .link img {
     padding: 0 4rem;
@@ -30,12 +31,24 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    margin: 10rem 0;
 }
 .player img {
-    width: 30rem;
-    height: 28rem;
-    margin: 10rem 0;
+    width: 50rem;
+    height: 48rem;
+    margin:  1rem 0;
     cursor: pointer;
+    padding: 10rem;
+}
+.player h1 {
+    text-align: center;
+    font-size: 7rem;
+    margin-top: -8rem;
+    text-transform: uppercase;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.1em;
 }
 .final {
     text-align: center;
@@ -49,7 +62,7 @@ body {
     font-style: normal;
     font-weight: bold;
     font-size: 15rem;
-    margin-top: 10rem;
+    margin-top: 19rem;
     text-align: center;
     margin-left: -14rem;
     letter-spacing: 0.1em;
@@ -60,12 +73,17 @@ body {
     text-align: center;
     position: absolute;
     width: 60rem;
-    height: 30rem;
+    height: 34rem;
     padding: 8rem;
-    margin: -10rem -30rem;
+    margin: 4rem -30rem;
     border-radius: 2rem;
-    background-color: green;
     transform: rotate(-28.87deg);
+}
+.draw {
+    background-color: green;
+}
+.win {
+    background: #4C9654;
 }
 .hasil h1 {
     font-family: Open Sans;
@@ -85,11 +103,24 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    margin: 10rem 0;
 }
 .computer img {
-    width: 30rem;
-    height: 28rem;
-    margin: 10rem 0;
+    width: 50rem;
+    height: 48rem;
+    cursor: pointer;
+    padding: 10rem;
+    margin:  1rem 0;
+}
+.computer h1 {
+    text-align: center;
+    font-size: 7rem;
+    margin-top: -8rem;
+    text-transform: uppercase;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.1em;
 }
 .refresh {
     display: flex;
@@ -97,9 +128,11 @@ body {
     align-items: center;
 }
 .refresh img {
-    width: 30rem;
-    height: 28rem;
+    width: 20rem;
+    height: 18rem;
     cursor: pointer;
+    margin-top: -10rem;
+    position: absolute;
 }
 .active {
     background: #C4C4C4;
