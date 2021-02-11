@@ -35,6 +35,7 @@ body {
     width: 30rem;
     height: 28rem;
     margin: 10rem 0;
+    cursor: pointer;
 }
 .final {
     text-align: center;
@@ -47,12 +48,12 @@ body {
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 12rem;
+    font-size: 15rem;
     margin-top: 10rem;
     text-align: center;
+    margin-left: -14rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-
     color: #BD0000;
 }
 .hasil {
@@ -98,4 +99,9 @@ body {
 .refresh img {
     width: 30rem;
     height: 28rem;
+    cursor: pointer;
+}
+.active {
+    background: #C4C4C4;
+    border-radius: 30px;
 }
