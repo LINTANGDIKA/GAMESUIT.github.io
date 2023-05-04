@@ -12,7 +12,7 @@ class sistemmain {
         if (player == computer) return 'SERI!';
         if ( player == 'batu') return (computer == 'gunting') ? 'PLAYER 1 WIN' : 'COMP WIN';
         if ( player == 'kertas') return (computer == 'batu') ? 'PLAYER 1 WIN' : 'COMP WIN';
-        if ( player == 'gunting') return (computer == 'guntkeing') ? 'PLAYER 1 WIN' : 'COMP WIN';
+        if ( player == 'gunting') return (computer == 'kertas') ? 'PLAYER 1 WIN' : 'COMP WIN';
     }  
     // akhir
 }
